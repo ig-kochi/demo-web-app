@@ -30,3 +30,18 @@ cd demo-web-app
 ## License
 
 To be decided.
+
+## Branches
+
+| Branch | Purpose | Protection |
+|--------|---------|------------|
+| `main` | Default, production-ready code | Protected (PR + 1 approval required) |
+| `develop` | Integration branch | Protected (PR + 1 approval required) |
+| `staging` | Pre-production validation | Protected (PR + 1 approval required) |
+| `release` | Release preparation | Protected (PR + 1 approval required) |
+| `production` | Deployed code | Protected (PR + 1 approval required) |
+| `feature/login` | Login feature work | None |
+| `feature/ui-refresh` | UI refresh work | None |
+| `bugfix/typo-fix` | Typo fixes | None |
+| `hotfix/config` | Config hotfix | None |
+| `experiment/sandbox` | Experiments | None |
